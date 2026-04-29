@@ -1,7 +1,7 @@
 import * as readline from 'readline-sync';
 
 // 1. Definimos a senha correta (pré-definida)
-const SENHA_CORRETA: string = "1234abc";
+const SENHA_CORRETA: string = "1234";
 
 console.log("--- Sistema de Login ---");
 
