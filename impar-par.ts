@@ -1,12 +1,13 @@
-	//1. Entrada de dados  Função para verificar paridade
-	function verificarParidade(numero: number): string {
-    	if (numero % 2 === 0) {
+// Exercício 01: Par ou Ímpar
+	function verificarParOuImpar(numero: number): string {
+    if (numero % 2 === 0) {
         return `O número ${numero} é PAR.`;
-    	} else {
+    } else {
         return `O número ${numero} é ÍMPAR.`;
     }
 }
 
-	// Exemplo de uso
-	const entrada: number = 7;
-	console.log(verificarParidade(entrada));
+	// Testando o código
+	const meuNumero: number = 10; // Altere este número para testar
+	console.log(verificarParOuImpar(meuNumero));
+
